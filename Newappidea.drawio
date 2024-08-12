@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
+  <diagram name="Página-1" id="_S5NKBU33I-u4o6STbrq">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Docker Registries" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="383" y="467" width="167" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Docker Hub" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="418" y="502" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Third-party" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="418" y="585" width="97" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Docker Daemon" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="191" width="358" height="447" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Docker Engine" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="216" y="286" width="117" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="ContainerD" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="419" y="35" width="95" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Image Storage" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="408" y="119" width="117" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Plugins" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="433" y="202" width="65" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Networking" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="418" y="286" width="96" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Security" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="370" width="73" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Docker Client" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry y="251" width="141" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Docker CLI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="25" y="286" width="91" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="13" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.55;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="52" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.57;exitY=0;entryX=0;entryY=0.49;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.64;exitY=0;entryX=0.01;entryY=0.5;" edge="1" parent="1" source="6" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="6" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.64;exitY=0.99;entryX=-0.01;entryY=0.49;" edge="1" parent="1" source="6" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.62;exitY=0.99;entryX=0.37;entryY=-0.01;" edge="1" parent="1" source="6" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="407" />
+              <mxPoint x="383" y="407" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.6;exitY=0.99;entryX=0.41;entryY=0;" edge="1" parent="1" source="6" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="427" />
+              <mxPoint x="383" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
